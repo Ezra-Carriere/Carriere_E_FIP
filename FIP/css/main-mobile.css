@@ -1,0 +1,278 @@
+@charset "UTF-8";
+
+div,p,body,header,footer,section,article,nav { 
+	margin: 0; 
+	padding: 0; 
+}	
+
+img { 
+	border: none;
+	margin: 0; 
+	padding: 0; 
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}
+
+#container {
+	margin: 0 auto;
+	width: 428px;
+}
+
+.grid-con {
+	display: grid;
+	grid-template-columns: repeat(4, 85px);
+	grid-column-gap: 16px;
+}
+
+#header-con {
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#header-logo {
+	grid-column: 1/3;
+	height: 83px;
+	margin-left: 20px;
+}
+
+#mobile-nav {
+	grid-column: 4/-1;
+}
+
+.burger {
+	height: 16px;
+	background-color:black;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#hero-text img {
+	grid-column: 1/-1;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+#featured_series {
+	background-color: #dddddd;
+	height: 750px;
+	position: relative;
+}
+
+#featured_series h2 {
+	background-color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	margin: 0;
+}
+
+#about-us-con h2 {
+	background-color: #006CEA;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0;
+}
+
+#about-us-text-con {
+	background-color: #006CEA;
+}
+
+#about-us-text {
+	grid-column: 1/-1;
+	font-family: 'Times New Roman', Times, serif;
+	color: white;
+	text-align: center;
+	height: 550px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 30px;
+}
+
+#about-us-text h1 {
+	font-size: 40px;
+}
+
+#about-us-text p {
+	font-size: 30px;
+}
+
+.about-us-photo {
+	background-color: #006CEA;
+	grid-column: 1/-1;
+	display: block;
+	margin: 0px auto 0 auto;
+}
+
+#contact {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#contact-text {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	grid-column: 1/8;
+	height: 450px;
+	color: black;
+	text-align: center;
+}
+
+#contact-text h1 {
+	font-family: 'Times New Roman', Times, serif;
+	margin-top: 80px;
+	font-size: 60px;
+}
+
+#contact-text p {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 40px;
+	line-height: 60px;
+}
+
+#contact-form {
+	grid-column: 1/-1;
+	height: 650px;
+	background-color: #006CEA;
+	width: 428px;
+}
+
+#contact-form input {
+	font-family: 'Times New Roman', Times, serif;
+	width: 200x;
+	font-size: 35px;
+	margin-top: 40px;
+	margin-left: 25px;
+}
+
+.comments {
+	height: 200px;
+	text-align: justify;
+}
+
+#contact-form button {
+	background-color: white;
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 35px;
+	margin-top: 40px;
+	margin-left: 25px;
+}
+
+#contact-form button:hover {
+	background-color: black;
+	color: white;
+}
+
+#footer-con {
+	height: 320px;
+	width: 428px;
+	background-color: #aaa;
+}
+
+#footer-con-products {
+	margin-left: 505px;
+	height: 320px;
+	width: 428px;
+	background-color: #aaa;
+}
+
+#footer-box {
+	margin-top: 40px;
+	grid-column: 1/3;
+	margin-left: 20px;
+}
+
+#footer-newsletter {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	margin-top: 10px;
+	height:100px;
+	grid-column: 1/-1;
+	margin-left: 20px;
+}
+
+#footer-newsletter input {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+#footer-newsletter button {
+	font-family: 'Times New Roman', Times, serif;
+	background-color: #006CEA;
+	color: white;
+	font-size: 20px;
+	margin-left: -10px;
+}
+
+#footer-newsletter button:hover {
+	color: #006CEA;
+	background-color: white;
+}
+
+.dot {
+	background-color: #dddddd;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin: 5px;
+  }
+
+#gallery h2 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+	text-align: center;
+	grid-column: 1/-1;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+}
+
+.gallery-box {
+	background-color: #ddd;
+	grid-column: span 4 / span 4;
+	height: 550px;
+	width: 428px;
+	margin-bottom: 88px;
+}
+
+.gallery-box h1 {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+	line-height: 60px;
+}
+
+.gallery-box h1:hover {
+	color: #006CEA;
+}
+
+#add_to_cart {
+	background-color: #006CEA;
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	color: white;
+	margin-left: 140px;
+}
+
+#add_to_cart:hover {
+	background-color: white;
+	color: #006CEA;
+}
